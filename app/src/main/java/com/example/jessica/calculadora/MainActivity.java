@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
             result = numeroA + numeroB;
             campoDigitacao.setText(campoDigitacao.getText()+"+");
 
+
         }if (operacao.equals("-")){
             result = numeroA - numeroB;
             campoDigitacao.setText(campoDigitacao.getText()+"-");
